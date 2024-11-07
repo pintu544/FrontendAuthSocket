@@ -1,0 +1,54 @@
+/* Main container */
+.player-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffe135; /* yellow background */
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+/* Click counter styling */
+.click-counter {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ff8c00; /* orange color for the count */
+  position: absolute;
+  top: 5%;
+}
+
+/* Banana image container */
+.banana-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Banana image styling */
+.banana-image {
+  width: 100px;
+  height: auto;
+  border: 3px solid #fff; /* white border */
+  border-radius: 10px;
+  cursor: pointer; /* Pointer cursor only on the image */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* optional shadow for visual effect */
+}
+
+/* Logout button styling */
+.logout-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #ff6b6b; /* red color for the button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
